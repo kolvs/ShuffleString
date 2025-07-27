@@ -1,72 +1,72 @@
 # Shuffle String Generator
 
-## 项目简介
+## Project Introduction
 
-Shuffle String Generator 是一个随机字符串生成器应用，可以帮助用户快速生成各种类型的随机字符串。该应用支持多种模式，包括纯小写字母、纯大写字母、大小写混合、纯数字以及字母数字混合等模式，并允许用户自定义生成字符串的长度。
+Shuffle String Generator is a random string generator application that helps users quickly generate various types of random strings. The app supports multiple modes, including lowercase letters only, uppercase letters only, mixed case, numbers only, and alphanumeric mixed modes, and allows users to customize the length of generated strings.
 
-## 主要功能
+## Main Features
 
-- 🎲 多种生成模式：
-    - 小写字母
-    - 大写字母
-    - 大小写混合
-    - 纯数字
-    - 字母数字混合
-- 📏 自定义字符串长度
-- 📋 一键复制生成结果
-- ❤️ 收藏喜爱的字符串
-- 💾 数据持久化存储
-- 🌍 多语言支持（简体中文）
+- 🎲 Multiple generation modes:
+  - Lowercase letters
+  - Uppercase letters
+  - Mixed case
+  - Numbers only
+  - Alphanumeric mixed
+- 📏 Custom string length
+- 📋 One-click copy of generated results
+- ❤️ Favorite your preferred strings
+- 💾 Persistent data storage
+- 🌍 Multi-language support (Simplified Chinese)
 
-## 技术要点
+## Technical Highlights
 
-### 开发技术
+### Development Technologies
 
-- **Kotlin** - 主要开发语言
-- **Jetpack Compose** - 现代 Android UI 工具包
-- **Material 3** - Google 最新的设计系统
+- **Kotlin** - Primary development language
+- **Jetpack Compose** - Modern Android UI toolkit
+- **Material 3** - Google's latest design system
 - **Android Architecture Components**
 
-### 核心组件
+### Core Components
 
-- **DataStore** - 用于持久化存储收藏的字符串
-- **Compose Runtime** - 状态管理 (`mutableStateOf`, `mutableStateListOf`)
-- **Material Icons** - 使用官方图标库
-- **Clipboard Manager** - 实现复制功能
+- **DataStore** - Used for persistent storage of favorite strings
+- **Compose Runtime** - State management (`mutableStateOf`, `mutableStateListOf`)
+- **Material Icons** - Using official icon library
+- **Clipboard Manager** - Implementation of copy functionality
 
-### 架构模式
+### Architecture Patterns
 
-- **声明式 UI** - 使用 Compose 构建界面
-- **单向数据流** - 状态管理和界面更新
-- **函数式编程** - Composable 函数设计
+- **Declarative UI** - Building interfaces with Compose
+- **Unidirectional Data Flow** - State management and UI updates
+- **Functional Programming** - Composable function design
 
-### 国际化支持
+### Internationalization Support
 
-- **多语言资源** - 支持字符串资源的多语言管理
-- **资源引用** - 使用 `stringResource` 引用字符串资源
+- **Multi-language Resources** - Support for multi-language string resource management
+- **Resource References** - Using `stringResource` to reference string resources
 
-## 使用场景
+## Use Cases
 
-- 生成随机密码
-- 创建唯一标识符
-- 测试数据生成
-- 游戏中的随机名称生成
+- Generating random passwords
+- Creating unique identifiers
+- Test data generation
+- Random name generation in games
 
-## 屏幕截图
+## Screenshots
 
-（此处可以添加应用界面截图）
+(Add application interface screenshots here)
 
-## 安装说明
+## Installation Instructions
 
-1. 克隆项目到本地
-2. 使用 Android Studio 打开项目
-3. 同步 Gradle 依赖
-4. 构建并运行应用
+1. Clone the project to your local machine
+2. Open the project with Android Studio
+3. Sync Gradle dependencies
+4. Build and run the application
 
-## 依赖库
+## Dependencies
 
 ```gradle
-// Compose 相关
+// Compose related
 implementation "androidx.compose.ui:ui:$compose_version"
 implementation "androidx.compose.material3:material3:$compose_version"
 implementation "androidx.compose.material:material-icons-extended:$compose_version"
