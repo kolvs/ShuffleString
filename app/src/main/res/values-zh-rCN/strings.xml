@@ -1,0 +1,17 @@
+<resources>
+    <string name="ss_app_name">混序串</string>
+    <string name="ss_length">长度</string>
+    <string name="ss_generate">生成</string>
+    <string name="ss_result">生成结果</string>
+    <string name="ss_copied">已复制</string>
+    <string name="ss_copy">复制</string>
+    <string name="ss_delete">删除</string>
+    <string name="ss_favorite">收藏</string>
+    <string name="ss_favorite_list">收藏列表</string>
+    <string name="ss_lowercase">小写</string>
+    <string name="ss_uppercase">大写</string>
+    <string name="ss_caps">大小写</string>
+    <string name="ss_digital">数字</string>
+    <string name="ss_mix">英文+数字</string>
+
+</resources>

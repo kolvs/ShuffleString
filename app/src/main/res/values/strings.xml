@@ -1,0 +1,17 @@
+<resources>
+    <string name="ss_app_name">ShuffleString</string>
+    <string name="ss_length">Length</string>
+    <string name="ss_generate">Generate</string>
+    <string name="ss_result">Result</string>
+    <string name="ss_copied">Copied</string>
+    <string name="ss_copy">Copy</string>
+    <string name="ss_delete">Delete</string>
+    <string name="ss_favorite">Favorite</string>
+    <string name="ss_favorite_list">FavoriteList</string>
+    <string name="ss_lowercase">Lowercase</string>
+    <string name="ss_uppercase">Uppercase</string>
+    <string name="ss_caps">Caps</string>
+    <string name="ss_digital">Digital</string>
+    <string name="ss_mix">Mix</string>
+
+</resources>
